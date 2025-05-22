@@ -1,0 +1,134 @@
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a8d5ba;
+    line-height: 1.6;
+    padding-bottom: 50px;
+
+   
+    background-color: #000000;
+    background-image:
+        repeating-linear-gradient(
+            45deg,
+            rgba(80, 250, 123, 0.05),
+            rgba(80, 250, 123, 0.05) 1px,
+            transparent 1px,
+            transparent 10px
+        ),
+        repeating-linear-gradient(
+            -45deg,
+            rgba(80, 250, 123, 0.05),
+            rgba(80, 250, 123, 0.05) 1px,
+            transparent 1px,
+            transparent 10px
+        );
+    background-size: 20px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #50fa7b;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #8cffab;
+}
+
+
+header {
+    background: #0b3d0b;
+    color: #a8d5ba;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: #a8d5ba;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #50fa7b;
+}
+
+
+div {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #121212;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(80, 250, 123, 0.2);
+}
+
+h2 {
+    color: #50fa7b;
+    margin-bottom: 15px;
+}
+
+img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #50fa7b;
+}
+
+
+#whatilovetodo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.whatilovetodo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.whatilovetodo h3 {
+    margin-top: 0;
+    color: #8cffab;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #0b3d0b;
+    color: #a8d5ba;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+audio {
+    display: block;
+    margin: 20px auto;
+    filter: invert(1) brightness(1.2);
+}
